@@ -18,6 +18,9 @@ st.sidebar.markdown("""
 - **Red**: 10000 이상 횟수
 """)
 
+# 예시 파일 다운로드 링크
+st.sidebar.markdown("[예시 CSV 파일 다운로드](./차란차_센터.csv)")
+
 # CSV 파일 업로더
 uploaded_file = st.file_uploader("CSV 파일을 업로드하세요.", type=["csv"])
 
